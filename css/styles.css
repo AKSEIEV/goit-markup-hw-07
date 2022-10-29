@@ -29,10 +29,6 @@ body {
   color: var(--top-color);
 }
 
-header {
-  border-bottom: 1px solid #eeeeee;
-}
-
 li {
   list-style-type: none;
 }
@@ -67,6 +63,9 @@ footer {
 -------------------------------------------------------------
 ---------------H E A D-----------------------------------------------
 --------------------------------------------------------------- */
+.header {
+  border-bottom: 1px solid #eeeeee;
+}
 
 .container {
   width: 1200px;
@@ -82,7 +81,7 @@ footer {
   align-items: baseline;
 }
 
-.logo-header {
+.main-nav__logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -95,21 +94,21 @@ footer {
   margin-top: 24px;
 }
 
-.logo-header-accent {
+.main-nav__icon {
   color: var(--top-color);
 }
 
-.list-header {
+.main-nav__list {
   list-style: none;
   display: flex;
   gap: 50px;
 }
 
-.list-header .link-header + .link-header {
+.main-nav__list .main-nav__link + .main-nav__link {
   margin-left: 40px;
 }
 
-.link-header {
+.main-nav__link {
   color: var(--top-color);
   font-weight: 500;
   font-size: 14px;
@@ -120,7 +119,7 @@ footer {
   padding-bottom: 32px;
 }
 
-.current::after {
+.main-nav__link--current::after {
   display: block;
   content: "";
   width: 100%;
@@ -132,17 +131,17 @@ footer {
   margin-top: 28px;
 }
 
-.link-header.current {
+.main-nav__link.main-nav__link--current {
   color: var(--acent-color);
 }
 
-.link-tel {
+.main-nav__list-contacts {
   display: block;
   display: flex;
   margin-left: auto;
 }
 
-.link-div-header {
+.main-nav__link-contacts {
   color: var(--text-color);
   font-weight: 500;
   font-size: 14px;
@@ -155,13 +154,13 @@ footer {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.meil-icon {
+.main-nav__icon-meil {
   fill: currentColor;
   text-align: center;
   margin-right: 10px;
 }
 
-.tel-icon {
+.main-nav__icon-tel {
   fill: currentColor;
   margin-right: 10px;
   text-align: center;
@@ -176,7 +175,7 @@ footer {
 ---------------M A I N-----------------------------------------------
 --------------------------------------------------------------- */
 
-.header {
+.head {
   background: #2f303a;
   text-align: center;
   padding-top: 200px;
