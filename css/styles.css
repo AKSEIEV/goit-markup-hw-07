@@ -76,97 +76,6 @@ header {
 ------------MAIN-NAV-----------------------------------------------
 --------------------------------------------------------------- */
 
-.main-nav {
-  text-align: center;
-  display: flex;
-  align-items: baseline;
-}
-
-.main-nav__logo {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--acent-color);
-  text-decoration: none;
-  margin-right: 93px;
-  margin-top: 24px;
-}
-
-.main-nav__icon {
-  color: var(--top-color);
-}
-
-.main-nav__list {
-  list-style: none;
-  display: flex;
-  gap: 50px;
-}
-
-.main-nav__list .main-nav__link + .main-nav__link {
-  margin-left: 40px;
-}
-
-.main-nav__link {
-  color: var(--top-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.main-nav__link--current::after {
-  display: block;
-  content: "";
-  width: 100%;
-  height: 4px;
-  top: 0;
-  left: 0;
-  background: var(--acent-color);
-  border-radius: 4px;
-  margin-top: 28px;
-}
-
-.main-nav__link.main-nav__link--current {
-  color: var(--acent-color);
-}
-
-.main-nav__list-contacts {
-  display: block;
-  display: flex;
-  margin-left: auto;
-}
-
-.main-nav__link-contacts {
-  color: var(--text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  padding: 15px;
-  display: flex;
-  align-items: center;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.main-nav__icon-meil {
-  fill: currentColor;
-  text-align: center;
-  margin-right: 10px;
-}
-
-.main-nav__icon-tel {
-  fill: currentColor;
-  margin-right: 10px;
-  text-align: center;
-}
-
 /* -------------------------------------M A I N---------------------------
 ------------------------------------------------------------------
 -------------------------------M A I N-----------------------------------
@@ -679,6 +588,19 @@ input[type="tel"]:focus {
   text-align: center;
 }
 
+.container-team {
+  display: block;
+  display: flex;
+  padding-bottom: 95px;
+  background: #f5f4fa;
+}
+
+.list-team {
+  background: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .item-team img {
   border-radius: 0px;
 }
@@ -847,6 +769,11 @@ input[type="tel"]:focus {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.link-footer:hover,
+.link-footer:focus {
+  color: var(--acent-color);
+}
+
 .list-footer:not(:last-child) {
   margin-bottom: 9px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -859,6 +786,11 @@ input[type="tel"]:focus {
   color: var(--big-fon-color);
   font-style: normal;
   text-decoration: none;
+}
+
+.sity:hover,
+.sity:focus {
+  color: var(--acent-color);
 }
 
 .seti-footer {
@@ -984,6 +916,14 @@ input[type="tel"]:focus {
   justify-content: center;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .list-btn-portfolio {
   display: block;
   display: flex;
@@ -1030,6 +970,24 @@ input[type="tel"]:focus {
   text-align: center;
 }
 
+/* -------------------------------------FLEX - CONTAINER ---------------------------
+------------------------------------------------------------------
+-------------------------------FLEX - CONTAINER-----------------------------------
+------------------------------------------------------------------
+------------------------ FLEX - CONTAINER-------------------------------
+-------------------------------------------------------------
+---------------FLEX - CONTAINER-----------------------------------------------
+--------------------------------------------------------------- */
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
 .box {
   width: 370px;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1039,15 +997,6 @@ input[type="tel"]:focus {
 .box:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  padding: 0;
-  margin: 0;
-  list-style: none;
 }
 
 .box-link {
@@ -1095,52 +1044,12 @@ input[type="tel"]:focus {
   color: var(--top-color);
 }
 
-.text {
+.box-mini__text {
   color: #757575;
   margin-top: 4px;
   font-size: 16px;
   line-height: 1.87;
 }
-
-.svg-mail {
-  position: absolute;
-}
-
-.list {
-  list-style: none;
-}
-
-.container-team {
-  display: block;
-  display: flex;
-  padding-bottom: 95px;
-  background: #f5f4fa;
-}
-
-/* ------------------Psevdoklasi tipa------------------------------ */
-
-.sity:hover,
-.sity:focus,
-.link-header:hover,
-.link-header:focus,
-.link-div-header:hover,
-.link-footer:hover,
-.link-div-header:focus,
-.link-footer:focus {
-  color: var(--acent-color);
-}
-
-/* -------------------------------------h1------------- */
-
-.list-team {
-  background: #f5f4fa;
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-/* ----------------------------h3 tiny------------------ */
-
-/* ---------------------------h3 portfolio--------------------------- */
 
 .list-portfolio p {
   font-size: 16px;
@@ -1149,7 +1058,11 @@ input[type="tel"]:focus {
   color: var(--text-color);
 }
 
-.button-svg {
+/* .button-svg {
   display: flex;
   margin-left: 12px;
-}
+} */
+
+/* .svg-mail {
+  position: absolute;
+} */

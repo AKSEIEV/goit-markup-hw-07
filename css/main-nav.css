@@ -1,7 +1,3 @@
-body {
-  background-color: rgb(156, 250, 157);
-}
-
 .main-nav {
   text-align: center;
   display: flex;
@@ -98,4 +94,4 @@ body {
 .main-nav__link-contacts:hover,
 .main-nav__link-contacts:focus {
   color: var(--acent-color);
-}/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main-nav.css.map */
