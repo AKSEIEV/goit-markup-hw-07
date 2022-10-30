@@ -1,6 +1,9 @@
 body {
-    background-color: rgb(199, 212, 167);
+    background-color: tomato;
     }
+
+@import './utils/vars';
+
 
 @import './components/main-nav';
 @import './components/head';
@@ -14,4 +17,3 @@ body {
 @import './components/flex-container';
 
 
-@import './utils/vars;

@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(156, 250, 157);
+  background-color: tomato;
 }
 
 .main-nav {
@@ -98,4 +98,50 @@ body {
 .main-nav__link-contacts:hover,
 .main-nav__link-contacts:focus {
   color: var(--acent-color);
+}
+
+.head {
+  background: #2f303a;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.overlay {
+  content: "";
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid black;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/fon/fon.jpg");
+  background-repeat: no-repeat;
+}
+
+.title-main-big {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  max-width: 696px;
+  margin: 0 auto;
+}
+
+.btn {
+  color: #ffffff;
+  background-color: #2196f3;
+  border: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 216px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 30px;
 }/*# sourceMappingURL=main.css.map */
