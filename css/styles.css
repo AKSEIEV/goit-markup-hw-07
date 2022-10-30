@@ -1,11 +1,4 @@
-:root {
-  --text-color: #757575;
-  --top-color: #212121;
-  --big-fon-color: #ffffff;
-  --acent-color: #2196f3;
-}
-
-body {
+/* body {
   font-family: "Roboto", sans-serif;
   background-color: var(--big-fon-color);
   color: var(--top-color);
@@ -32,7 +25,7 @@ h3,
 h4,
 h5 {
   margin: 0;
-}
+} */
 
 /* ul, */
 /* li {
@@ -43,7 +36,7 @@ h5 {
   list-style: none;
 } */
 
-ul {
+/* ul {
   padding: 0;
   margin: 0;
 }
@@ -54,7 +47,7 @@ footer {
 
 header {
   border-bottom: 1px solid #ececec;
-}
+} */
 
 /* .container {
   width: 1200px;
@@ -82,7 +75,7 @@ header {
 ---------------head-----------------------------------------------
 --------------------------------------------------------------- */
 
-.head {
+/* .head {
   background: #2f303a;
   text-align: center;
   padding-top: 200px;
@@ -130,7 +123,7 @@ header {
   height: 50px;
   margin: 0 auto;
   margin-top: 30px;
-}
+} */
 
 /* -------------------------------------M O D A L---------------------------
 ------------------------------------------------------------------
@@ -141,7 +134,7 @@ header {
 ---------------M O D A L-----------------------------------------------
 --------------------------------------------------------------- */
 
-.backdrop {
+/* .backdrop {
   display: flex;
   position: fixed;
   top: 0;
@@ -390,7 +383,7 @@ input[type="tel"]:focus {
 .btn-register:focus,
 .btn-register:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */
 
 /* -------------------------------------S T R E N G T H---------------------------
 ------------------------------------------------------------------
@@ -400,7 +393,7 @@ input[type="tel"]:focus {
 -------------------------------------------------------------
 ---------------S T R E N G T H-----------------------------------------------
 --------------------------------------------------------------- */
-.strength {
+/* .strength {
   padding-top: 94px;
 }
 
@@ -491,7 +484,7 @@ input[type="tel"]:focus {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
-}
+} */
 
 /* -------------------------------------W O R K---------------------------
 ------------------------------------------------------------------
@@ -501,7 +494,7 @@ input[type="tel"]:focus {
 -------------------------------------------------------------
 ---------------W O R K-----------------------------------------------
 --------------------------------------------------------------- */
-.work {
+/* .work {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -559,7 +552,7 @@ input[type="tel"]:focus {
   align-items: center;
   color: var(--big-fon-color);
   background-color: rgba(47, 48, 58, 0.8);
-}
+} */
 
 /* -------------------------------------T E A M---------------------------
 ------------------------------------------------------------------
@@ -570,7 +563,7 @@ input[type="tel"]:focus {
 ---------------T E A M-----------------------------------------------
 --------------------------------------------------------------- */
 
-.title-main-medium {
+/* .title-main-medium {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -677,7 +670,7 @@ input[type="tel"]:focus {
 .soc-seti-link:focus {
   color: var(--big-fon-color);
   background-color: #2196f3;
-}
+} */
 
 /* -------------------------------------C L I E N T S---------------------------
 ------------------------------------------------------------------
@@ -687,7 +680,7 @@ input[type="tel"]:focus {
 -------------------------------------------------------------
 ---------------C L I E N T S-----------------------------------------------
 --------------------------------------------------------------- */
-.link-clients {
+/* .link-clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -735,7 +728,7 @@ input[type="tel"]:focus {
 .clients-link:hover {
   color: #2196f3;
   border: 1px solid #2196f3;
-}
+} */
 
 /* -------------------------------------F O O T E R ---------------------------
 ------------------------------------------------------------------
@@ -746,7 +739,7 @@ input[type="tel"]:focus {
 ---------------F O O T E R-----------------------------------------------
 --------------------------------------------------------------- */
 
-.footer-container {
+/* .footer-container {
   background-color: #2f303a;
   height: 252px;
   padding-top: 60px;
@@ -918,7 +911,7 @@ input[type="tel"]:focus {
   position: absolute;
   text-align: center;
   margin-left: 10px;
-}
+} */
 
 /* -------------------------------------P O R T F O L I O ---------------------------
 ------------------------------------------------------------------
@@ -928,7 +921,7 @@ input[type="tel"]:focus {
 -------------------------------------------------------------
 ---------------P O R T F O L I O-----------------------------------------------
 --------------------------------------------------------------- */
-.is-hidden {
+/* .is-hidden {
   visibility: hidden;
   pointer-events: none;
   position: absolute;
@@ -995,7 +988,7 @@ input[type="tel"]:focus {
   margin-right: 8px;
   display: inline;
   text-align: center;
-}
+} */
 
 /* -------------------------------------FLEX - CONTAINER ---------------------------
 ------------------------------------------------------------------
@@ -1006,7 +999,7 @@ input[type="tel"]:focus {
 ---------------FLEX - CONTAINER-----------------------------------------------
 --------------------------------------------------------------- */
 
-.flex-container {
+/* .flex-container {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -1065,7 +1058,6 @@ input[type="tel"]:focus {
 
 .title-portfolio {
   font-size: 18px;
-  /* line-height: 36px; / 18 =2 */
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--top-color);
@@ -1083,7 +1075,7 @@ input[type="tel"]:focus {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--text-color);
-}
+} */
 
 /* .button-svg {
   display: flex;
