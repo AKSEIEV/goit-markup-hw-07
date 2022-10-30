@@ -3,6 +3,7 @@
   --top-color: #212121;
   --big-fon-color: #ffffff;
   --acent-color: #2196f3;
+  --accentBtnColor: #188CE8;
 }
 
 ul {
@@ -189,6 +190,13 @@ h5 {
   height: 50px;
   margin: 0 auto;
   margin-top: 30px;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #ffffff;
+  background-color: tomato;
+  border: #188CE8;
 }
 
 .backdrop {
@@ -965,9 +973,7 @@ input[type=tel]:focus {
 }
 
 .btn-portfolio:hover,
-.btn-portfolio:focus,
-.btn:hover,
-.btn:focus {
+.btn-portfolio:focus {
   color: var(--big-fon-color);
   background-color: var(--acent-color);
   border: var(--acent-color);
