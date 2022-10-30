@@ -98,4 +98,7 @@ body {
 .main-nav__link-contacts:hover,
 .main-nav__link-contacts:focus {
   color: var(--acent-color);
+}/*# sourceMappingURL=main.css.map */ --top-color: #212121;
+  --big-fon-color: #ffffff;
+  --acent-color: #2196f3;
 }/*# sourceMappingURL=main.css.map */

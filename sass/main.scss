@@ -1,5 +1,15 @@
 body {
-    background-color: rgb(156, 250, 157);
+    background-color: rgb(199, 212, 167);
     }
 
-@import './components/main-nav'
+@import './components/main-nav';
+@import './components/head';
+@import './components/modal';
+@import './components/strength';
+@import './components/work';
+@import './components/team';
+@import './components/clients';
+@import './components/footer';
+@import './components/portfolio';
+@import './components/flex-container';
+@import './utils/vars';
