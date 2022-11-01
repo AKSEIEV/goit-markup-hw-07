@@ -18,36 +18,42 @@
     justify-content: center;
 }
 
-.strength__item-antenna::before {
-    content: "";
-    display: block;
-    height: 120px;
-    margin-bottom: 30px;
-    background: #f5f4fa;
-    background-image: url(../img/icons.svg/antena.svg);
-    background-size: 65px 70px;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 4px;
-    width: 270px;
+.strength__item-antenna {
+   &::before {
+        content: "";
+        display: block;
+        height: 120px;
+        margin-bottom: 30px;
+        background: #f5f4fa;
+        background-image: url(../img/icons.svg/antena.svg);
+        background-size: 65px 70px;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 4px;
+        width: 270px;
+}
+  
 }
 
 
-.strength__item-clock::before {
-    content: "";
-    display: block;
-    height: 120px;
-    margin-bottom: 30px;
-    background: #f5f4fa;
-    background-image: url(../img/icons.svg/chasiki.svg);
-    background-size: 67px 70px;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 4px;
-    width: 270px;
+.strength__item-clock {
+    &::before {
+        content: "";
+        display: block;
+        height: 120px;
+        margin-bottom: 30px;
+        background: #f5f4fa;
+        background-image: url(../img/icons.svg/chasiki.svg);
+        background-size: 67px 70px;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 4px;
+        width: 270px;
+    }
 }
 
-.strength__item-graph::before {
+.strength__item-graph {
+  &::before {
     content: "";
     display: block;
     height: 120px;
@@ -59,21 +65,25 @@
     background-position: center;
     border-radius: 4px;
     width: 270px;
+    }
+   }
+
+.strength__item-space {
+     &::before {
+        content: "";
+        display: block;
+        height: 120px;
+        margin-bottom: 30px;
+        background: #f5f4fa;
+        background-image: url(../img/icons.svg/kosmos.svg);
+        background-size: 55px 61px;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 25px 100px;
+        border-radius: 4px;
+        width: 270px;
 }
 
-.strength__item-space::before {
-    content: "";
-    display: block;
-    height: 120px;
-    margin-bottom: 30px;
-    background: #f5f4fa;
-    background-image: url(../img/icons.svg/kosmos.svg);
-    background-size: 55px 61px;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 25px 100px;
-    border-radius: 4px;
-    width: 270px;
 }
 
 .strength__title {
